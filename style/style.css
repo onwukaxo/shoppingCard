@@ -1,0 +1,87 @@
+/* 
+.navbar-brand {
+  color: green !important;
+} 
+*/
+
+/* Reset all default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for all <i> (icon) elements */
+i {
+  font-size: 35px;         /* Make icons large */
+  cursor: pointer;         /* Show pointer cursor on hover */
+  margin: 0 10px;          /* Space between icons */
+  color: black;            /* Icon color */
+}
+
+/* Center the main content vertically and horizontally */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the shopping card section */
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7; /* Light gray background */
+  border-radius: 10px;       /* Rounded corners */
+  padding: 3%;               /* Inner spacing */
+  margin: 50px 0;            /* Vertical spacing */
+}
+
+/* Style for the price display inside total-price section */
+.total-price span {
+  font-size: 30px;           /* Large font for price text */
+}
+
+/* Make the total price value bold */
+.total {
+  font-weight: bold;
+}
+
+/* Product list section container */
+.list-products {
+  display: flex;
+  justify-content: center;   /* Center the product cards */
+  margin-top: 30px;          /* Space from top */
+  width: 70%;                /* Width relative to parent */
+}
+
+/* Style each product card */
+.card {
+  padding: 5%;               /* Padding inside the card */
+}
+
+/* Inner body of each card (for layout and alignment) */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quantity number style */
+.quantity {
+  font-size: 25px;           /* Bigger number display */
+}
+
+/* Flex layout for icon controls inside each card */
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;          /* Space above icons */
+}
+
+/* Style specifically for the trash (delete) icon */
+.fa-trash-alt {
+  color: #de6b5c;            /* Soft red color for delete */
+}
